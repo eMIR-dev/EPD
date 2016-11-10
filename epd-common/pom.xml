@@ -14,6 +14,7 @@
 
 	<properties>
 		<maritime.cloud.version>0.4-SNAPSHOT</maritime.cloud.version>
+<!--<maritime.cloud.version>0.4-20161014.102944-140</maritime.cloud.version>-->
 	</properties>
 
 	<dependencies>
@@ -92,7 +93,8 @@
         <dependency>
             <groupId>net.maritimecloud.mms</groupId>
             <artifactId>mc-mms-client</artifactId>
-            <version>${maritime.cloud.version}</version>
+            <!--<version>${maritime.cloud.version}</version>-->
+            <version>0.4-20161014.102944-140</version>
         </dependency>
         <dependency>
 			<groupId>org.slf4j</groupId>
